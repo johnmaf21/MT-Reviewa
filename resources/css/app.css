@@ -1,0 +1,72 @@
+body {
+    background-color: #7090CB;
+}
+
+.logo {
+    margin-right: auto;
+    width: 100px;
+}
+
+.nav__links {
+    list-style: none;
+    display: flex;
+}
+
+.nav__links li {
+    padding: 0px 20px;
+    display: inline;
+}
+
+
+.nav__links ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.nav__links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav__links li a img {
+    float: left;
+}
+
+.nav__links li a:hover {
+    color: #1a202c;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    order: 1;
+}
+
+.header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 10%;
+
+}
+
+.nav__links a {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+.genreMovies {
+    display: inline;
+}
+
+h1 {
+    font-size: 35px;
+}
